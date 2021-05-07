@@ -1,0 +1,2191 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "02528581-af42-11eb-88f8-a87eeaba6624",
+            "deck_config_uuid": "02528582-af42-11eb-9d7b-a87eeaba6624",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Geometric application",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.1.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of dimension \\(n \\geq 1\\).<div><br></div><div>Let \\(\\mathscr{B}_1\\) and \\(\\mathscr{B}_2\\) be two basis of \\(E\\). We say that \\(\\mathscr{B}_1\\) and \\(\\mathscr{B}_2\\) have {{c1::the same orientation}} if {{c1::the transition matrix \\(P\\) from \\(\\mathscr{B}_1\\) to \\(\\mathscr{B}_2\\)}} has {{c1::positive determinant \\(\\det(A) &gt; 0\\)}}.&nbsp;</div><div><br></div><div>Otherwise, we say that \\(\\mathscr{B}_1\\) and \\(\\mathscr{B}_2\\) have {{c1::opposite orientations}}.&nbsp;</div>",
+                        "",
+                        "89"
+                    ],
+                    "guid": "v*.EQ}iUB4",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.1.",
+                        "We can define a relation \\(\\sim\\) on the set of basis of \\(E\\) as follows: we say \\(\\mathscr{B}_1 \\sim \\mathscr{B}_2\\)&nbsp;if \\(\\mathscr{B}_1\\)&nbsp;and \\(\\mathscr{B}_2&nbsp;\\) have {{c1::the same orientation}}.<div><br></div><div>The relation \\(\\sim\\) is an equivalence relation on the set of all basis of \\(E\\). In addition, there are exactly two equivalence classes for the relation \\(\\sim\\).<br></div>",
+                        "",
+                        "89"
+                    ],
+                    "guid": "iAX2l4iOjk",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.2.",
+                        "The set of equivalence classes of \\(\\sim\\) is the set of {{c1::orientations of \\(E\\)}}. {{c1::An orientation of \\(E\\)}} is the choice of such an equivalence class.",
+                        "",
+                        "90"
+                    ],
+                    "guid": "P[fW@U6|rg",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 4.2. <sup>(Definition 4.2.)</sup>",
+                        "Choosing an orientation is equivalent to {{c1::choosing a reference basis}}.",
+                        "",
+                        "90"
+                    ],
+                    "guid": "y<mYiVs!q5",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.3.",
+                        "Given an orientation of \\(E\\) and given a basis \\(\\mathscr{B}\\) belonging to this orientation, we say {{c1::a basis \\(\\mathscr{B}'\\)&nbsp;is direct}} if {{c2::\\(\\mathscr{B}&nbsp;&nbsp;\\sim \\mathscr{B}'\\)}}. Otherwise, we say \\(\\mathscr{B}'&nbsp;\\)&nbsp;is {{c1::undirect}}.",
+                        "",
+                        "90"
+                    ],
+                    "guid": "C_/~8QzI[c",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.2. Automorphisms which preserve the orientation.",
+                        "We let \\(\\text{GL}^+(E)\\) be {{c1::\\[\\text{GL}^+(E) := \\{f \\in \\text{GL}(E) : \\det(f) &gt; 0 \\}\\]}}<div><br></div><div>\\(\\text{GL}^+(E)\\)&nbsp;&nbsp;is a subgroup of {{c1::\\((\\text{GL}(E), \\circ)\\)}}.<br></div>",
+                        "",
+                        "90"
+                    ],
+                    "guid": "P2Trf]9O7+",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.3.",
+                        "Given an orientation on \\(E\\), \\(\\text{GL}^+ (E)\\) is the set of {{c1::automorphisms of \\(E\\) which preserve the orientation}}.",
+                        "",
+                        "90"
+                    ],
+                    "guid": "mJhlVi5dWA",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "4.1.1.3. Orientation in an Euclidean space.",
+                        "We now assume \\(E\\) is a \\(\\mathbb{R}\\)-vector space of dimension \\(n \\geq 1\\) and we let \\(q \\in \\mathscr{Q}(E)\\) have {{c1::signature \\((n, 0)\\)}}. <br><br>In other words, the {{c1::polar form \\(\\langle\\cdot,\\cdot\\rangle\\) of \\(q\\)}} is {{c1::an inner product}} on \\(E\\). <br><br>We let \\(||\\cdot || := \\sqrt{q}\\) and \\(\\mathscr{O}(E) := \\mathscr{Q}(q)\\) be the group of isometries of \\((E, q)\\).",
+                        "",
+                        "91"
+                    ],
+                    "guid": "xs*p8doL<T",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.4.",
+                        "We let \\(\\mathscr{B} = (e_1,..., e_n)\\) be an orthonormal basis of \\(E\\). We endow \\(E\\) with the orientation induced by \\(\\mathscr{B}\\). Pick any other orthonormal basis \\(\\mathscr{B}' = (e'_1,..., e'_n)\\) of \\(E\\).<br><br>The only linear map \\(f \\in \\mathscr{L}(E)\\) which satisfies \\(f(e_i) = e'_i\\) for all \\(1 \\leq i \\leq n\\) is {{c1::an isometry}}.",
+                        "",
+                        "91"
+                    ],
+                    "guid": "F`X91bE5@%",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 4.3. <sup>(Lemma 4.4.)</sup>",
+                        "In the Euclidean space \\((\\mathbb{R}^n, \\langle\\cdot,\\cdot\\rangle)\\) where \\(\\langle\\cdot,\\cdot\\rangle\\) is the standard inner product, there is a {{c1::canonical orientation}}: {{c1::the one given by the canonical basis}}.",
+                        "",
+                        "91"
+                    ],
+                    "guid": "M.6=l-b3h0",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.4.",
+                        "We now assume \\((\\Pi,q)\\) is an Euclidian plane.&nbsp;We fix an orthonormal basis \\(\\mathscr{B}\\).<br><br>A direct isometry \\(f \\in \\mathscr{S O}(\\Pi)\\) is called a {{c1::rotation}}.",
+                        "",
+                        "91"
+                    ],
+                    "guid": "QqDl`#J%c!",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 4.5.1",
+                        "{{c2::Any \\(f \\in \\mathscr{O}(\\Pi)\\) with \\(\\det(f ) = −1\\)}} is a {{c1::reflection}}.",
+                        "",
+                        "91"
+                    ],
+                    "guid": "ly<G>Npu!K",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 4.5.2.",
+                        "Any {{c1::rotation}} is the {{c2::composition of two reflections}}.",
+                        "",
+                        "91"
+                    ],
+                    "guid": "xc5LY.B}58",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 4.5.3.",
+                        "The group \\(\\mathscr{SO}(\\Pi)\\) of {{c1::rotations}} is {{c1::commutative}}.",
+                        "",
+                        "91"
+                    ],
+                    "guid": "jhyB&|A0Kq",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 4.6.",
+                        "A rotation \\(f \\in \\mathscr{SO}(\\Pi)\\) has {{c1::the same matrix}} in all the direct orthonormal basis of \\(\\Pi\\). {{c1::This matrix}} has the form {{c1::\\[\\begin{pmatrix}a &amp; -b \\\\ b &amp; a\\end{pmatrix} \\text{ with } a^2+b^2=1 \\]}}",
+                        "",
+                        "92"
+                    ],
+                    "guid": "bE;zd<s9QT",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 4.7. <sup>(Proposition 4.6.)</sup>",
+                        "For any \\(f \\in \\mathscr{SO}(\\Pi)\\), there exist \\(\\theta \\in \\mathbb{R}\\) such that, for any direct orthonormal basis \\(\\mathscr{B}_1\\) of \\(\\Pi\\), we have (its matrix){{c1::\\[\\mathscr{M}_{\\mathscr{B}_1}(f) = \\begin{pmatrix}\\cos(\\theta) &amp; -\\sin(\\theta) \\\\&nbsp; \\sin(\\theta) &amp; \\cos(\\theta)\\end{pmatrix}\\]}}<br><br>Moreover, {{c2::\\(\\theta\\) is unique, up to translation by \\(2k\\pi\\),&nbsp;with \\(k \\in \\mathbb{Z}\\)}}.",
+                        "",
+                        "93"
+                    ],
+                    "guid": "l|/1r6rx]z",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.8. <sup>(Proposition 4.6.)</sup>",
+                        "Given any two unitary vector \\(u, v \\in \\Pi\\), there is {{c1::a unique rotation \\(f\\)}} such that {{c1::\\(f (u) = v\\)}}.",
+                        "",
+                        "93"
+                    ],
+                    "guid": "Fb}=%fbE?>",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.5.1",
+                        "We let \\(\\widehat{\\mathscr{A}}:= \\{(u, v) \\in \\Pi \\times \\Pi : ||u|| = ||v|| = 1\\}\\).<br><br>The equivalence class of \\((u, v) \\in \\widehat{\\mathscr{A}}\\) is the {{c1::oriented angle between \\(u\\) and \\(v\\)}}.",
+                        "",
+                        "94"
+                    ],
+                    "guid": "gH+{5j{stB",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.5.2",
+                        "We define a map&nbsp; {{c1::\\[\\widehat{\\Phi}:\\widehat{\\mathscr{A} }\\to\\mathscr{SO}(\\Pi)\\]}} by sending \\((u,v)\\) to the unique rotation \\(f \\in \\mathscr{SO}(\\Pi)\\) such that \\(f(u) = v\\).",
+                        "",
+                        "94"
+                    ],
+                    "guid": "ip!L>,fSC",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.9.",
+                        "Pick any two couples \\((u, v),(u', v') \\in \\widehat{\\mathscr{A} }\\). Then {{c1::\\(\\widehat{\\Phi}(u, v) = \\widehat{\\Phi}(u',v')\\)}} if and only if {{c2::\\((u,u') \\sim (v, v')\\)}}.",
+                        "",
+                        "94"
+                    ],
+                    "guid": "x!Q3;B7}!J",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 4.10.",
+                        "Let now \\(\\mathscr{A}\\) be the set of equivalence classes of the relation \\(\\sim\\) on \\(\\widehat{\\mathscr{A} }\\).<br><br>The map \\(\\widehat{\\Phi}\\) induces a bijection \\(\\Phi : \\mathscr{A} \\to \\mathscr{SO}(\\Pi)\\) which inverse is {{c1::the map \\(f \\in \\mathscr{S O}(\\Pi) \\mapsto (u, f(u))\\)}} for any unitary vector \\(u \\in \\Pi\\).",
+                        "",
+                        "94"
+                    ],
+                    "guid": "P+tX$8Wvd|",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 4.11.<sup>(Corollary 4.7.)</sup>",
+                        "An oriented angle between unitary vector is thus an element of {{c1::\\(\\mathscr{A}\\)}}. <br><br>In particular, the set of angles \\((u, v)\\) between unitary vectors \\(u, v\\) is in bijection with {{c1::the set \\(\\mathbb{R}/2\\pi \\mathbb{Z}\\) of real numbers modulo \\(2\\pi\\)}}.",
+                        "",
+                        "95"
+                    ],
+                    "guid": "zg8*8jtt)w",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.12.",
+                        "\\((\\mathscr{A} ,+)\\) is {{c1::a commutative group}}.",
+                        "",
+                        "95"
+                    ],
+                    "guid": "O%9sIXp=GN",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 4.13. (Chasles relation).",
+                        "For any unitary vectors \\(u, v, w \\in \\Pi\\), we have {{c1::\\[(u,v)+(v,w)=(u,w)\\]}}",
+                        "",
+                        "96"
+                    ],
+                    "guid": "B!R2l(1)0t",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.6.",
+                        "We say \\(\\theta \\in \\mathbb{R}\\) is a measure of the angle of rotation of \\(f \\in \\mathscr{SO}(\\Pi)\\) if {{c1::the matrix of \\(f\\) in any direct orthonomal basis of \\(\\Pi\\) is \\[\\begin{pmatrix}\\cos(\\theta) &amp; -\\sin(\\theta) \\\\ \\sin(\\theta) &amp; \\cos(\\theta)\\end{pmatrix}\\]}}",
+                        "",
+                        "96"
+                    ],
+                    "guid": "LH42SlJnXx",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 4.7.",
+                        "Let \\((u,v) \\in \\widehat{\\mathscr{A}}\\). We say \\(\\theta \\in \\mathbb{R}\\) is a {{c1::measure of the angle between \\(u\\) and \\(v\\)}} if \\(\\theta\\) {{c2::is a measure of the angle of rotation of the unique \\(f \\in \\mathscr{SO}(\\Pi)\\)}} such that \\(f(u) = v\\).",
+                        "",
+                        "96"
+                    ],
+                    "guid": "x?c7K7rU+%",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Characterization of similarities.",
+                        "We say a linear map \\(f \\in \\mathscr{L}(\\Pi)\\) preserves angles if for any pair of unitary vectors \\((u, v) \\in \\widehat{\\mathscr{A}}\\), we have {{c1::\\[\\left(\\frac{f(u)}{||f(u)||},\\frac{f(v)}{||f(v)||}\\right) \\sim (u,v)\\]}}",
+                        "",
+                        "96"
+                    ],
+                    "guid": "N:pKq,8w^a",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 4.14.",
+                        "Let \\((\\Pi, \\langle\\cdot,\\cdot\\rangle)\\) be an Euclidean plane and let \\(f \\in \\mathscr{L}(\\Pi)\\). The following are equivalent:<br><br>1. \\(f\\) is {{c1::a direct similarity}},<br>2. \\(f\\) {{c2::preserves angles between unitary vectors}}.",
+                        "",
+                        "96"
+                    ],
+                    "guid": "Eb)iNUL:.-",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 4.15.&nbsp;<sup>(Proposition 4.14.)</sup>",
+                        "Let \\((\\Pi,\\langle\\cdot,\\cdot\\rangle)\\) be an Euclidean plane, let \\((u, v) \\in \\widehat{\\mathscr{A}}\\) and let \\(\\theta \\in [0,2\\pi]\\) be a measure of the angle \\((u, v)\\). Then {{c1::\\(\\langle u,v \\rangle = \\cos(\\theta)\\)}}.",
+                        "",
+                        "97"
+                    ],
+                    "guid": "jQGi!noMi,",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "0252faa1-af42-11eb-864c-a87eeaba6624",
+            "deck_config_uuid": "0252faa2-af42-11eb-8f0f-a87eeaba6624",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "mid": 1619391225391,
+            "name": "Orthogonal Transformations",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.1.&nbsp;Isometries",
+                        "A linear map \\(f \\in \\mathscr{L}(E)\\) is an isometry (or an orthogonal transformation) of \\((E,q)\\) if {{c1::for any \\(u \\in E\\), \\(q(f(u)) = q(u)\\)}}.",
+                        "",
+                        "61"
+                    ],
+                    "guid": "DOQSZtZY$`",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.1.",
+                        "Assume \\(f \\in \\mathscr{L}(E)\\) is an isometry of \\((E,q)\\). Then \\(f\\) is {{c1::invertible}}.",
+                        "",
+                        "61"
+                    ],
+                    "guid": "b6YL>y]8{L",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 3.2.",
+                        "Let \\(f \\in \\text{GL}(E)\\). The following assertions are equivalent:<div><br></div><div>1. \\(f\\) is an isometry of \\((E,q)\\),&nbsp;</div><div><br></div><div>2. \\(\\varphi(f(u), f(v)) =\\) {{c1::\\(\\varphi(u, v)\\)}}, for all \\((u, v) \\in E \\times E\\),&nbsp;</div><div><br></div><div>3. for any basis \\(\\mathscr{B}\\) of \\(E\\), we have \\(\\mathscr{M}_\\mathscr{B}(q) =\\) {{c1::\\( {}^\\top\\mathscr{M}_\\mathscr{B}(f)\\mathscr{M}_\\mathscr{B}(q)\\mathscr{M}_\\mathscr{B}(f)\\)}},</div><div><br></div><div>4. there exist a basis \\(\\mathscr{B}\\) of \\(E\\) such that \\(\\mathscr{M}_\\mathscr{B}(q) =\\) \\( {}^\\top\\mathscr{M}_\\mathscr{B}(f)\\mathscr{M}_\\mathscr{B}(q)\\mathscr{M}_\\mathscr{B}(f)\\).</div>",
+                        "",
+                        "62"
+                    ],
+                    "guid": "nl$Eb6a$3X",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.3.",
+                        "\\((\\mathscr{O}(q), \\circ)\\) is {{c1::a group}}.<div><br></div><div><b>Reminder.&nbsp;</b>\\((G, \\star)\\) is a group if</div><div><br></div><div>1. \\(\\star : G \\times G \\to G\\) is {{c1::associative, i.e. \\(g \\star (g' \\star g'') = (g \\star g') \\star g''\\)}},</div><div><br></div><div>2. \\(\\star\\) has {{c1::a neutral element \\(e_G, i.e. e_G \\star g = g \\star e_G = g\\)}},</div><div><br></div><div>3. every \\(g \\in G\\) has {{c1::an inverse for \\(\\star\\),&nbsp;i.e. there exists \\(g' \\in G\\) with \\(g \\star g' = g' \\star g = e_G\\)}}.&nbsp;</div>",
+                        "",
+                        "62"
+                    ],
+                    "guid": "v(}Q={TjBO",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.2.",
+                        "The group \\(\\mathscr{O}(q)\\) is the {{c1::orthogonal group}}<i>&nbsp;</i>of the quadratic form \\(q\\).",
+                        "",
+                        "62"
+                    ],
+                    "guid": "A5>Qc+T1^=",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.4.",
+                        "Let \\(f \\in \\mathscr{O}(q)\\). Then \\(\\det(f)^2 =\\) {{c1::\\(1\\)}}.",
+                        "",
+                        "63"
+                    ],
+                    "guid": "D_uH&uf7f<",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.4.&nbsp;",
+                        "An endomorphism \\(f \\in \\mathscr{L}(E)\\) is an involution if {{c1::\\(f \\circ f = \\text{id}_E\\)}}.",
+                        "",
+                        "64"
+                    ],
+                    "guid": "yaHP!jT#r*",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.3.&nbsp;",
+                        "The {{c2::kernel of the morphism \\(\\det : \\mathscr{O}(q) → K^\\times\\)}} is called the {{c1::special orthogonal group of \\((E,q)\\)}} and denoted by \\(\\mathscr{S}\\mathscr{O}(q)\\).<div><br></div><div>Any {{c2::\\(f \\in \\mathscr{S}\\mathscr{O}(q)\\)}}&nbsp;is called {{c1::a direct isometry}} and any {{c2::\\(f \\in \\mathscr{O}(q) − \\mathscr{S}\\mathscr{O}(q)\\)}}&nbsp;is called {{c1::an indirect isometry}}.<br></div>",
+                        "",
+                        "63"
+                    ],
+                    "guid": "loS{P6q?;#",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.2.&nbsp;",
+                        "1. One can also define \\(\\mathscr{S}\\mathscr{O}(q)\\) as {{c1::\\[\\mathscr{S}\\mathscr{O}(q) = \\{f \\in \\mathscr{O}(q) : \\det(f) = 1\\}\\]}}<div><br><div>2. Remark that \\(-\\text{id}_E \\in \\mathscr{O}(q)\\). Since \\(\\det(-\\text{id}_E) = (-1)^n\\), where \\(n\\) is the dimension of \\(E\\), \\(n\\) is odd if and only if {{c1::\\(-\\text{id}_E \\notin \\mathscr{S}\\mathscr{O}(q)\\)}}.</div></div>",
+                        "",
+                        "63"
+                    ],
+                    "guid": "Ms-HItN6w5",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 3.5.",
+                        "Let \\(f \\in \\mathscr{L}(E)\\) be an involution. Then \\(f \\in \\mathscr{O}(q)\\) if and only if {{c1::\\(\\ker(f − \\text{id}_E)\\)}} and {{c1::\\(\\ker(f + \\text{id}_E)\\)}} are {{c1::orthogonal}} for \\(q\\).",
+                        "",
+                        "64"
+                    ],
+                    "guid": "F2sMui<4r/",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.6.",
+                        "Let \\(f \\in \\mathscr{L}(E)\\) be an involution of \\(E\\) (\\(\\dim E \\geq 1\\)). Then \\(f\\) is {{c1::diagonalizable}} with {{c1::eigenvalues contained in \\(\\{−1;1\\}\\)}}.",
+                        "",
+                        "64"
+                    ],
+                    "guid": "h7&?./as#X",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.5.",
+                        "Let \\(f \\in \\mathscr{O}(q)\\) be an involution and let {{c3::\\(F := \\ker(f-\\text{id}_E)\\)}}. We say that \\(f\\) is the {{c1::orthogonal symmetry about \\(F\\) relatively to \\((E,q)\\)}} and we denote \\(\\sigma_F := f\\).<div><br></div><div><b>Caution! </b>{{c1::The orthogonal symmetry \\(\\sigma_F\\)&nbsp;about \\(F\\) relatively to \\((E,q)\\)}} is well-defined only if {{c2::\\(\\text{rad}(F) = \\{0\\}\\), i.e. if \\(q|_F\\) is non-degenerate}}!<br></div>",
+                        "",
+                        "64"
+                    ],
+                    "guid": "O@rSDKqXkq",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 3.7.",
+                        "Let \\(f \\in \\mathscr{L}(E)\\). Then \\(f\\) is an orthogonal symmetry relatively to \\((E,q)\\) if and only if there exists an orthogonal basis \\(\\mathscr{B}\\) for \\(q\\) such that the matrix \\(\\mathscr{M}_\\mathscr{B}(f)\\) is {{c1::a diagonal matrix \\(\\text{diag}(\\varepsilon_1,...,\\varepsilon_n)\\) with \\(\\varepsilon_i = \\pm 1\\)}}.<div><br></div><div><b>Remark 3.3. </b>— As an immediate consequence, we see that, if \\(\\sigma_F\\) is the orthogonal symmetry about \\(F\\) relatively to \\((E,q)\\), we have \\(\\det(\\sigma_F) =\\) {{c1::\\((−1)^{\\dim E−\\dim F}\\)}}.<br></div>",
+                        "",
+                        "64"
+                    ],
+                    "guid": "N:PF8@wB6m",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.6.",
+                        "The {{c1::orthogonal symmetry about a hyperlane \\(F\\) of \\(E\\), i.e. \\(\\dim F = \\dim E − 1\\),}} is called a <i>reflection</i>.",
+                        "",
+                        "65"
+                    ],
+                    "guid": "jW{.A!rwbr",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.8.",
+                        "Assume \\(\\dim E \\geq 2\\) and let \\(u, v \\in E\\) be distinct non-isotropic vector with \\(q(u) = q(v)\\).&nbsp;<div><br></div><div>There exists {{c1::an orthogonal symmetry \\(\\sigma_F\\) distinct&nbsp;from \\(\\pm \\text{id}_E\\) with \\(\\sigma_F(u) = v\\)}}. Moreover, \\(\\pm \\sigma_F\\) is a {{c1::reflection}}.</div>",
+                        "",
+                        "65"
+                    ],
+                    "guid": "l|2&+`>6ud",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.9.",
+                        "{{c2::Any orthogonal symmetry \\(\\sigma_F \\in \\mathscr{O}(q)\\)}} about a subspace \\(F\\) of dimension \\(k\\) of \\(E\\) is the composition of {{c1::\\(\\dim E − k\\)&nbsp;reflections}}.",
+                        "",
+                        "66"
+                    ],
+                    "guid": "l`QMWdy%,T",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 3.10.",
+                        "Assume \\(E\\) has dimension \\(n\\) and let \\(q \\in \\mathscr{Q}(E)\\) be non-degenerate. Then:<br><br>1. The group \\(\\mathscr{O}(q)\\) is generated by {{c1::reflections}}, i.e. every isometry \\(f \\in \\mathscr{O}(q)\\) is {{c1::the composition of finitely many reflections}}, <br><br>2. If \\(n \\geq 3\\), the group \\(\\mathscr{S}\\mathscr{O}(q)\\) is generated by {{c1::symmetries about vector subspaces of dimension \\(n − 2\\)}}.",
+                        "",
+                        "66"
+                    ],
+                    "guid": "dlxt,5ThGk",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.11.",
+                        "Assume \\(\\dim E \\geq 3\\). For any \\(f \\in \\mathscr{S} \\mathscr{O}(q)\\) and any non-isotropic \\(u \\in E\\), there exists a {{c1::three-dimensional non-isotropic}} subspace of \\(E\\) containing \\(\\{u, f (u)\\}\\).",
+                        "",
+                        "67"
+                    ],
+                    "guid": "OSfR67E?/*",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Reduction of isometries, dimension 1.",
+                        "Assume \\(E\\) has dimension \\(1\\) and fix \\(e \\in E\\) with \\(q(e)=1\\). Then \\(q(\\lambda e) = \\lambda^2\\) and an isometry \\(f \\in \\mathscr{O}(q)\\) satisfies<br>{{c1::\\[\\lambda^2 = q(\\lambda e) = q(f(\\lambda e)) = q(\\lambda f(e)) = \\lambda^2 q(f(e))\\]&nbsp;}} <br>In particular, \\(q(f(e)) = 1\\) i.e. \\(f(e) = \\pm e\\) and {{c1::\\[\\mathscr{O}(q) = \\{\\pm\\text{id}_E\\}\\]}}<br>In particular, \\(\\chi_f(X) = X \\pm 1\\).",
+                        "",
+                        "69"
+                    ],
+                    "guid": "J{Bjy}KdJ:",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Reduction of isometries, dimension 2.",
+                        "The matrix \\(A = \\begin{pmatrix}a &amp; b\\\\c &amp; d\\end{pmatrix}\\) is orthogonal if and only if {{c1::\\[a^2+c^2=b^2+d^2=1 \\text{ and } ab+cd = 0\\]}} <br>We thus can set {{c1::\\[a = \\cos(\\theta_1), c = \\sin(\\theta_1), b = \\sin(\\theta_2), d = \\cos(\\theta_2)\\]}}<br><br>- If \\(\\theta_1 = -\\theta_2\\), {{c1::\\(\\det(A) = 1\\)}} and \\(A\\) is {{c2::a rotation of angle \\(\\theta_1\\)}}. <br><br>- If \\(\\theta_1 = \\theta_2\\), {{c2::\\(\\chi_A(X) = X^2 -1\\)}} and \\(A\\) is {{c1::the matrix of a reflection}}.",
+                        "",
+                        "70"
+                    ],
+                    "guid": "c#{9amcTN8",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 3.12.",
+                        "For any \\(f \\in \\mathscr{O}(q)\\), we have the following<br><br>1. \\(E\\) is {{c2::the orthogonal direct sum \\(E = \\bigoplus_{1 \\leq j\\leq s} H_j\\) of \\(E\\) with \\(\\dim H_i \\in \\{1,2\\}\\) and \\(f(H_i) = H_i\\)}},<br><br>2. If \\(H_j\\) has dimension \\(1\\), \\(f|_{H_j}=\\) {{c1::\\(\\pm \\text{id}_{H_j}<br>\\)}},<br><br>3. If \\(H_j\\) has dimension \\(2\\), there exists {{c1::an orthonomal base \\(\\mathscr{B}\\) of \\(H_j\\) and a unique \\(\\alpha \\in ]0,\\pi[\\)}} such that {{c2::\\[\\mathscr{M}_\\mathscr{B}(f|_{H_j}) = \\begin{pmatrix}\\cos \\alpha &amp; -\\sin \\alpha \\\\ \\sin \\alpha &amp; \\cos \\alpha \\end{pmatrix}\\]}}",
+                        "",
+                        "71"
+                    ],
+                    "guid": "Io@1RCeh{c",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.13. <sup>(Theorem 3.12)</sup>",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space and \\(f \\in \\mathscr{L}(E)\\). There exists a subspace \\(F \\subset E\\) with {{c1::\\(\\dim F = 1\\) or \\(2\\)}} and such that {{c1::\\(f(F) \\subset F\\)}}.&nbsp;",
+                        "",
+                        "71"
+                    ],
+                    "guid": "ung$VzVouO",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 3.16. <sup>(Topology)</sup>",
+                        "The group \\(\\mathscr{O}(q)\\)&nbsp; is {{c1::compact}}.",
+                        "",
+                        "73"
+                    ],
+                    "guid": "iBq-a}b^%[",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.7. <sup>(Path-connectedness)</sup>",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of finite dimension. <br><br>We say that a subset \\(S \\subset E\\) is <i>path-connected</i> if for any two \\(u, v \\in S\\), there exists {{c1::a continuous map \\(\\gamma : [0,1] \\to S\\)}} such that {{c1::\\(\\gamma (0) = u\\) and \\(\\gamma (1) = v\\)}}. <br><br>We say that \\(S' \\subset S\\) is a <i>path-connected component</i> of \\(S\\) if there is {{c1::\\(S'\\) path-connected}} and for any \\(u \\in S − S'\\) and any \\(v \\in S'\\), there is {{c1::no continuous function \\(\\gamma : [0,1] \\to S\\) with \\(\\gamma (0) = u\\) and \\(\\gamma (1) = v\\)}}.",
+                        "",
+                        "75"
+                    ],
+                    "guid": "Hqp`;I8aMl",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 3.17.",
+                        "The group \\(\\mathscr{O}(q)\\) has exactly {{c1::two}} path-connected components: {{c1::\\(\\mathscr{S}\\mathscr{O}(q)\\)}} and {{c1::its complement \\(\\mathscr{O}(q) − \\mathscr{S} \\mathscr{O}(q)\\)}}, <br><br>i.e. {{c1::\\(\\mathscr{S}\\mathscr{O}(q)\\) and \\(\\mathscr{O}(q) −\\mathscr{S}\\mathscr{O}(q)\\)}} are path-connected, but {{c1::\\(\\mathscr{O}(q)\\)}} is not path-connected.",
+                        "",
+                        "75"
+                    ],
+                    "guid": "gJ!$P>SZzW",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.8.",
+                        "A linear map \\(f \\in \\mathscr{L}(E)\\) is an {{c2::similarity}} of \\((E,q)\\) if there exists {{c1::\\(\\mu \\neq 0\\)}} such that for any \\(u, v \\in E\\), {{c1::\\(\\varphi(f (u), f (v)) = \\mu \\cdot \\varphi(u, v)\\)}}.<br><br>{{c1::The scalar \\(\\mu\\)}} is called the {{c2::<i>multiplier </i>of \\(f\\)}}&nbsp;and will be denoted by {{c1::\\(\\mu(f)\\)}} in the sequel.",
+                        "",
+                        "77"
+                    ],
+                    "guid": "KA}%-VpDvP",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.5.1.",
+                        "The multiplier of \\(f\\) can be computed taking two non-orthogonal vectors \\(u,v \\in E\\) by {{c1::\\[\\mu(f)=\\frac{\\varphi(f(u), f(v))}{\\varphi(u,v)}.\\]}}",
+                        "",
+                        "77"
+                    ],
+                    "guid": "lHaq!tX$l_",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.5.2.",
+                        "{{c1::Isometries}} are {{c2::similarities of multiplier \\(1\\)}}.",
+                        "",
+                        "77"
+                    ],
+                    "guid": "H#::V9{vvs",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.5.3.",
+                        "An homothety \\(\\lambda \\cdot \\text{id}_{E}\\) of \\(E\\) of scaling \\(\\lambda \\in \\mathbb{K}−{0}\\) is {{c1::a similarity of multiplier \\(\\mu = \\lambda^2\\)}}.",
+                        "",
+                        "77"
+                    ],
+                    "guid": "yP!KgL$w7I",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.18.",
+                        "Let \\(f \\in \\mathscr{L}(E)\\) be a similarity of multiplier \\(\\mu(f )\\), then \\(f \\in\\) {{c1::\\(\\text{GL}(E)\\)}}.",
+                        "",
+                        "77"
+                    ],
+                    "guid": "fY.jzMwd3m",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 3.19.",
+                        "Let \\(f \\in \\text{GL}(E)\\) and \\(\\mu \\in K^\\times\\). The following are equivalent:<br><br>1. {{c1::\\(q(f(u)) = \\mu q(u)\\)}}, for all \\(u \\in E\\),<br><br>2. \\(f\\) is {{c2::a similarity of multiplier \\(\\mu\\)}},<br><br>3. for any basis \\(\\mathscr{B}\\) of \\(E\\), we have {{c1::\\(\\mu \\mathscr{M}_{\\mathscr{B} }(q)\\)}} \\(=\\){{c2::\\({}^\\top\\mathscr{M}_\\mathscr{B}(f)\\mathscr{M}_\\mathscr{B}(q)\\mathscr{M}_\\mathscr{B}(f)\\)}},<br><br>4. there exists a basis \\(\\mathscr{B}\\)&nbsp;of E such that&nbsp;{{c1::\\(\\mu \\mathscr{M}_{\\mathscr{B} }(q)\\)}} \\(=\\) {{c2::\\({}^\\top\\mathscr{M}_\\mathscr{B}(f)\\mathscr{M}_\\mathscr{B}(q)\\mathscr{M}_\\mathscr{B}(f)\\)}}.",
+                        "",
+                        "77"
+                    ],
+                    "guid": "Ntlgb:Lybc",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 3.20.",
+                        "Let \\(f \\in \\mathscr{L}(E)\\) be a similarity of multiplier \\(\\mu(f )\\). Then \\(\\mu(f)^n =\\) {{c1::\\(\\det(f )^2\\)}}.",
+                        "",
+                        "78"
+                    ],
+                    "guid": "m`h=RRO**r",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.9.",
+                        "We let {{c1::\\(\\text{Sim}(q)\\)}} be the set of similarities of \\((E,q)\\).",
+                        "",
+                        "78"
+                    ],
+                    "guid": "y,-Brk;Y!T",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.21.",
+                        "The set \\(\\text{Sim}(q)\\) is a {{c1::group}} for {{c1::the composition law}}. Moreover, the map \\[f \\in \\text{Sim}(q) \\mapsto \\mu(f) \\in \\mathbb{K}^\\times\\] is a {{c1::morphism of groups}} which kernel is {{c1::\\(\\mathscr{O}(q)\\)}}.",
+                        "",
+                        "78"
+                    ],
+                    "guid": "N~0K6:^i_h",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.6. — Caution!",
+                        "It may happen that the morphism \\(f \\in \\text{Sim}(q) \\mapsto \\mu(f ) \\in K^\\times\\) is {{c1::not surjective}}. In fact, it will depend on {{c1::the dimension of \\(E\\) and on the signature of \\(q\\)}}.",
+                        "",
+                        "79"
+                    ],
+                    "guid": "Jog}{r=m(j",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.22.",
+                        "Assume {{c2::\\(n = \\dim E\\) is odd}}. Then the multiplier of a similarity \\(f \\in \\text{Sim}(q)\\) is {{c1::a square in \\(\\mathbb{K}^\\times\\)}}.",
+                        "",
+                        "79"
+                    ],
+                    "guid": "nlfxP2{(-L",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 3.23.",
+                        "Assume \\(n = \\dim E\\) is odd. Then, the morphism \\[\\mathbb{K}^\\times \\times \\mathscr{SO}(q) \\to \\text{Sim}(q)\\] defined by \\((\\lambda, g) \\mapsto \\lambda \\cdot g\\) is {{c1::an isomorphism of groups}}.",
+                        "",
+                        "79"
+                    ],
+                    "guid": "d5vgV=fJqT",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.7. <sup>(proposition 3.23)</sup>",
+                        "Any similarity of \\((E, q)\\) decomposes uniquely as the composition of {{c1::an homothety}} and {{c1::a direct isometry}}.",
+                        "",
+                        "80"
+                    ],
+                    "guid": "cjo~@QjDx6",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.24.",
+                        "Let \\(f \\in \\text{Sim}(q)\\)&nbsp;with multiplier \\(\\mu \\in \\mathbb{K}^\\times\\). The following are equivalent<br><br>1. \\(\\mu\\) is {{c1::a square in \\(\\mathbb{K}^\\times\\)}},<br><br>2. there exists {{c2::\\(\\lambda \\in&nbsp;\\mathbb{K}^\\times\\)}} and {{c2::an isometry \\(g \\in \\mathscr{O}(q)\\)}} such that {{c2::\\(f = \\lambda g\\)}}.",
+                        "",
+                        "80"
+                    ],
+                    "guid": "Nyw*;lrpm0",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 3.8. <sup>(lemma 3.24.)</sup>",
+                        "In the above <b>Lemma</b>, the decomposition is not unique, since we also can also write {{c2::\\(f = (−\\lambda) \\cdot (−g)\\)}} and {{c2::\\(\\det(−g) = (−1)^n \\det(g) = \\det(g)\\)}} since {{c1::\\(n\\) is odd}}.<br><br>On the other hand, <b>Lemma 3.22. </b>implies {{c1::\\[\\mu(f)^{2m} = \\det(f)^2 \\text{ for all } f \\in \\text{Sim}(q)\\]}} We thus have {{c2::\\(\\mu(f)^m = \\pm \\det(f)\\)}}.",
+                        "",
+                        "81"
+                    ],
+                    "guid": "qy5GqMgsb]",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.10.",
+                        "A similarity \\(f \\in \\text{Sim}(q)\\) is {{c2::direct (resp. indirect)}} if {{c1::\\(\\mu(f)^m = \\det(f)\\) (resp. if \\(\\mu(f)^m = −det(f )\\))}}. <br><br>We let {{c2::\\(\\text{Sim}^+(q)\\)}} be the set of {{c1::all direct similarities of \\((E,q)\\)}}.",
+                        "",
+                        "81"
+                    ],
+                    "guid": "gr@gaK~6Qd",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.25.&nbsp;<sup>(definition 3.10.)</sup>",
+                        "\\((\\text{Sim}^+(q), \\circ)\\) is {{c1::a group}}.",
+                        "",
+                        "81"
+                    ],
+                    "guid": "k7,B-D-],[",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 3.26.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-plane. Assume \\((E,q)\\) is a hyperbolic plane. <br><br>Then there exist \\(f,g \\in&nbsp;\\text{Sim}(q)\\), that are {{c1::respectively direct and indirect}}, which multiplier is {{c1::not a square}}.",
+                        "",
+                        "81"
+                    ],
+                    "guid": "u|YaCi>fhg",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.27.&nbsp;<sup>(Proposition 3.26.)</sup>",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of dimension \\(n\\) and assume \\(q\\) has signature \\((n,0)\\). Then any similarity is the composition of {{c1::an homothety and an isometry}}.",
+                        "",
+                        "81"
+                    ],
+                    "guid": "NDM:y.(?4W",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 3.11.",
+                        "We say \\(f \\in \\mathscr{L}(E)\\) preserves the orthogonality (relatively to \\(q\\)) if {{c1::\\[\\forall u, v \\in E, \\ \\varphi(u, v) = 0 \\ \\Longrightarrow \\ \\varphi(f(u), f(v)) = 0\\]}}",
+                        "",
+                        "83"
+                    ],
+                    "guid": "et&WD(`bB{",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 3.28. <sup>(Definition 3.11.)</sup>",
+                        "Let \\(f \\in \\text{GL}(E)\\). {{c2::\\(f \\in \\text{Sim}(q)\\)}} if and only if {{c1::\\(f\\) preserves the orthogonality}}.",
+                        "",
+                        "83"
+                    ],
+                    "guid": "HD-8DkS0=7",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 3.29.&nbsp;<sup>(Theorem 3.28.)</sup>",
+                        "Let \\(q,q' \\in \\mathscr{Q}(E)\\) be non-degenerate quadratic forms on \\(E\\) with polar forms \\(\\varphi,\\varphi'\\) respectively. The following are equivalent:<br><br>1. for any \\(u, v \\in E\\), if \\(\\varphi(u, v) = 0\\), then {{c1::\\(\\varphi'(u, v) = 0\\)}}.<br><br>2. there exists \\(\\mu \\in \\mathbb{K}^\\times\\) such that {{c1::\\(q' = \\mu \\cdot q\\) on \\(E\\)}}.",
+                        "",
+                        "83"
+                    ],
+                    "guid": "i,$`{>ZG6I",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "0253bdf4-af42-11eb-a95d-a87eeaba6624",
+            "deck_config_uuid": "0253bdf5-af42-11eb-b8a6-a87eeaba6624",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "mid": 1619391225391,
+            "name": "Orthogonality & isotropy",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.1.",
+                        "Two vectors \\(u, v \\in E\\) are {{c2::orthogonal with respect to \\(q\\)}} if {{c1::\\(\\varphi(u, v) = 0\\)}}.",
+                        "",
+                        "29"
+                    ],
+                    "guid": "qY@MEc4UIz",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.2.",
+                        "We say that two vector subspaces \\(F_1, F_2\\) of \\(E\\) are orthogonal if {{c1::\\(\\varphi(u, v) = 0\\) for all \\((u, v) \\in F_1 \\times F_2\\)}}. We use the notation \\(F_1 \\perp F_2\\).<b><br></b>",
+                        "",
+                        "29"
+                    ],
+                    "guid": "QNHQp#9Quq",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The orthogonal of a subspace.",
+                        "Given a subset \\(S\\) of \\(E\\), we define its <i>orthognal complement</i>, denoted by \\(S^\\perp\\), as<br>{{c1::\\[S^\\perp := \\{u \\in E : \\varphi(u, v) = 0, \\text{ for all } v \\in S\\}\\]}}",
+                        "",
+                        "29"
+                    ],
+                    "guid": "vAWHI(nc]/",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.3.",
+                        "The <i>radical </i>of \\(E\\) (with respect to \\(q\\)) is {{c1::\\(\\text{rad}(E) := E^\\perp\\)}}.",
+                        "",
+                        "29"
+                    ],
+                    "guid": "jtjavq08]s",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.1.1.",
+                        "For &nbsp;\\(q \\in \\mathscr{Q}(E)\\), we have \\(\\text{rad}(E)\\) = {{c1::\\(\\ker(q)\\)}}.",
+                        "<i>Proof.</i> By definition.",
+                        "29"
+                    ],
+                    "guid": "h^f6v-K~~r",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.1.2\\(^\\perp\\).",
+                        "For any subset \\(S\\), \\(T\\) of \\(E\\) with \\(S \\subset T\\), we have {{c1::\\(T^\\perp \\subset S^\\perp\\)}}.",
+                        "<i>Proof. </i>By definition.",
+                        "30"
+                    ],
+                    "guid": "vc,%e2B~V:",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.1.3.",
+                        "For any subset \\(S\\) of \\(E\\), \\(S^\\perp\\) is {{c1::a vector subspace of \\(E\\)}} and \\(S^\\perp =\\) {{c1::\\((\\text{Span}(S))^\\perp\\)}}.",
+                        "<i>Proof. </i>(hint)&nbsp;<br><br>To show that \\(S^\\perp\\) is a vector subspace of \\(E\\), it is sufficient to prove that \\(S^\\perp\\) is stable by linear combinations.&nbsp;Pick \\(u_1 ,u_2 \\in&nbsp;S^\\perp\\) and \\(\\lambda_1, \\lambda_2 \\in \\mathbb{K}\\) and let \\(v \\in S\\). Then \\[\\varphi(\\lambda_1u_1 + \\lambda_2 u_2 , v) = \\lambda_1\\varphi(u_1, v) + \\lambda_2\\varphi(u_2 , v) = 0\\]&nbsp;so that \\(\\lambda_1u_1 + \\lambda_2u_2 \\in S^\\perp\\)...",
+                        "30"
+                    ],
+                    "guid": "0fcW,xb-B",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.1.4.",
+                        "For any vector subspace \\(F\\) of \\(E\\), we have <br>\\(F \\cap F^\\perp =\\) {{c1::\\(\\ker\\left(q{|_F}\\right) = \\text{rad}(F)\\)}} <br><br>In particular, <br>\\(\\text{rank}(q{|_F}) =\\) {{c1::\\(\\dim F - \\dim (\\text{rad}(F))\\)}}.",
+                        "",
+                        "30"
+                    ],
+                    "guid": "y++k#nm!k1",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.2.",
+                        "There exists a vector subspace \\(F\\) of \\(E\\) such that \\(q|_F\\) is non-degenerate and \\(E =\\){{c1::\\(\\text{rad}(E)\\oplus F\\)}}.",
+                        "This lemma tells us that, up to reducing to a complement subspace of \\(\\text{rad}(E)\\) in \\(E\\), we can always reduce to the study of non-degenerate quadratic forms.<br><br><b>Remark 2.2.&nbsp;</b>— Contrary to the case when \\(q\\) is non-degenerate, the orthogonal complement \\(F\\) to \\(\\text{rad}(E)\\) is far from being unique!",
+                        "30"
+                    ],
+                    "guid": "cysCdXhev:",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.3.",
+                        "Assume \\(q\\) is non-degenerate, i.e. \\(\\text{rad}(E) = {0}\\).&nbsp;Then, for any vector subspaces \\(F,G\\) of \\(E\\),<br><br>1. (\\(\\dim\\)) {{c1::\\(\\dim F + \\dim F^\\perp = \\dim E\\)}},<br><br>2. (\\(\\perp^\\perp\\)) {{c1::\\((F^{\\perp})^{\\perp} = F\\)}},<br><br>3. \\((F+G)^\\perp =\\) {{c1::\\(F^\\perp \\cap G^\\perp\\)}},<br><br>4. \\((F\\cap G)^\\perp =\\) {{c1::\\(F^\\perp + G^\\perp\\)}}.<br><br>",
+                        "",
+                        "31"
+                    ],
+                    "guid": "tD<zKH_`!v",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 2.4.",
+                        "Assume \\(q\\) is non-degenerate and let \\(F\\) be a vector subspace of \\(E\\). The following assertions are equivalent:<div><br></div><div>1. \\((+)\\) {{c1::\\(F + F^\\perp = E\\)}},</div><div><br></div><div>2. \\((\\oplus)\\) {{c1::\\(F \\oplus F^\\perp = E\\)}},</div><div><br></div><div>3. \\(q|_F\\) is {{c2::non-degenerate}},</div><div><br></div><div>4. \\(q|_{F^{\\perp}}\\) is {{c2::non-degenerate}}.</div>",
+                        "",
+                        "32"
+                    ],
+                    "guid": "h=V(<s[IZB",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.4.",
+                        "Let \\(q \\in \\mathscr{Q}(E)\\) and let \\(\\mathscr{B} = (e_1,..., e_n)\\) be a basis of \\(E\\). We say that \\(\\mathscr{B}\\) is {{c2::an orthogonal basis for \\(q\\)}} if {{c1::\\(e_i\\) and \\(e_j\\) are orthogonal for all \\(i \\neq j\\).}}",
+                        "<b>Lemma 2.5.</b> — A basis \\(\\mathscr{B}\\) of \\(E\\) is orthogonal for \\(q\\) if and only if the matrix \\(\\mathscr{M}_\\mathscr{B}(q)\\) is diagonal.",
+                        "32"
+                    ],
+                    "guid": "A8A{zP]!pZ",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 2.6.\\(^\\perp\\)",
+                        "For any \\(q \\in \\mathscr{Q}(E)\\), there {{c1::exists an orthogonal basis}}.",
+                        "",
+                        "33"
+                    ],
+                    "guid": "ej{BLccaWJ",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 2.7.",
+                        "Assume there exists a basis \\((f_1,..., f_n)\\) of \\(E^\\star\\) and \\(\\alpha_1, ... , \\alpha_n \\in \\mathbb{K}\\) such that<div>\\[q(u) = \\sum_{j=1}^n \\alpha_j(f_j(u))^2, u \\in E\\]<div>Then the {{c1::ante-dual basis \\((e_1,..., e_n)\\) of \\((f_1,..., f_n)\\)}} is {{c2::an orthogonal basis for \\(q\\) with \\(q(e_i ) = \\alpha_i\\) for all \\(1 \\leq i \\leq n\\)}}.</div></div>",
+                        "<i>Proof. </i>— Let \\(\\mathscr{B} = (e_1,..., e_n)\\) be the ante-dual basis of \\(\\mathscr{F} = (f_1,..., f_n)\\), i.e. the unique basis of \\(E\\) which dual basis is \\(\\mathscr{F}\\). Then, any vector \\(u \\in E\\) writes in a unique way as \\[u = \\sum_{i=1}^n u_ie_i\\] where \\(u_i = f_i(u)\\), and we have \\[q(u) = \\sum_{i=1}^n \\alpha_i(f_i(u))^2 = \\sum_{i=1}^n \\alpha_i(u_i)^2.\\]<div><br></div><div>This implies \\(\\mathscr{M}_\\mathscr{B}(q) = \\text{diag}(\\alpha_1,...,\\alpha_n)\\) and the conclusion follows from <b>Lemma 2.5</b>.</div>",
+                        "34"
+                    ],
+                    "guid": "vUSxP;H0W#",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 2.8. (Gauß reduction)",
+                        "Let \\(q \\in \\mathscr{Q}(E)\\) be a quadratic form on \\(E\\). There exists a basis \\((f_1,...,f_n)\\) of \\(E^\\star\\) and \\(\\alpha_1,...,\\alpha_n \\in \\mathbb{K}\\) such that for any \\(u \\in E\\), {{c1::\\[q(u)=\\sum_{j=1}^{n}\\alpha_j \\cdot (f_j(u))^2\\]}} Moreover, the rank of \\(q\\) is {{c1::\\(\\text{Card}(\\{1 \\leq j \\leq n\\ : \\alpha_j \\neq 0\\})\\)}}.",
+                        "",
+                        "35"
+                    ],
+                    "guid": "E~GTk!f#7x",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 2.9.",
+                        "Any symmetric matrix is {{c1::congruent to a diagonal matrix}}.",
+                        "",
+                        "39"
+                    ],
+                    "guid": "k`G4YM2YGb",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.5.",
+                        "If \\(q \\in \\mathscr{Q}(E)\\)&nbsp;is {{c2::non-degenerate}} and if \\(\\mathscr{B} = (e_1,..., e_n)\\) is {{c2::an orthogonal basis with \\(q(e_i ) = \\pm 1\\)}}, we say \\(\\mathscr{B}\\) is {{c1::an orthonormal basis for \\(q\\)}}.",
+                        "",
+                        "38"
+                    ],
+                    "guid": "M)Z}[0SkH",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 2.10.&nbsp;(Sylvester law of inertia)",
+                        "We now assume \\(E\\) is a \\(\\mathbb{R}\\)-vector space of dimension \\(n &lt; +\\infty\\).&nbsp;<br><br>Let \\(q\\) be a quadratic form on \\(E\\). There exist a couple \\((p, s)\\) of non-negative integers such that {{c1::\\(p + s = \\text{rank}(q) \\leq n\\)}} and for any orthogonal basis \\(\\mathscr{B} = (e_1 ,..., e_n)\\) for \\(q\\), we have {{c1::\\[&nbsp;\\begin{cases} p = \\text{Card}(\\{1\\leq i \\leq n : q(e_i)&gt;0\\}) \\\\ s = &nbsp;\\text{Card}(\\{1\\leq i \\leq n : q(e_i)&lt;0\\})\\end{cases}\\]}}",
+                        "",
+                        "39"
+                    ],
+                    "guid": "P)<}L|0{/C",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.6.",
+                        "Let \\(q \\in \\mathscr{Q}(E)\\). The couple of integers \\((p, s)\\) given by the Sylverer law of inertia is called the {{c1::signature of the quadratic form \\(q\\)}}.",
+                        "",
+                        "40"
+                    ],
+                    "guid": "N:s}mIVn^0",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 2.11.",
+                        "Let \\(q \\in \\mathscr{Q}(E)\\) be a quadratic form of signature \\((p, s)\\). Then<br><br>1.&nbsp;{{c2::\\(q\\) is non-degenerate}} if and only if {{c1::\\(p + s = n\\)}},<br><br>2. {{c1::&nbsp;\\(q\\) is positive}} if and only if {{c2::\\(s = 0\\)}},<br><br>3.&nbsp;{{c2::\\(q\\) is positive definite}} if and only if {{c1::\\((p, s) = (n,0)\\)}}.",
+                        "",
+                        "40"
+                    ],
+                    "guid": "v.d#hE44[e",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 2.12. (Classification)",
+                        "We let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of dimension \\(n &lt; +\\infty\\).<br><br>Two quadratic forms on \\(E\\) are equivalent if and ony if {{c1::they have the same signature}}.",
+                        "",
+                        "41"
+                    ],
+                    "guid": "e;GyRZe<L|",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 2.13. (Classification)&nbsp;",
+                        "We let \\(E\\) be a \\(\\mathbb{C}\\)-vector space of dimension \\(n &lt; +\\infty\\).<br><br>Two quadratic forms on \\(E\\) are equivalent if and ony if {{c1::they have the same rank}}.",
+                        "",
+                        "43"
+                    ],
+                    "guid": "dmvAt-(5?=",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.7.",
+                        "1. The difference between the real and complex cases comes from the fact that {{c1::\\(−1\\) <i>is not the square of a real number</i>, but is the square of \\(i\\) in \\(\\mathbb{C}\\)}}! <br><br>2. We see that, up to change of coordinates, there are only \\(3\\) different quadratic forms on \\(\\mathbb{C}^2\\) and they are given by<br><br>– {{c1::\\(q_1(u, v) = 0\\), for all \\((u, v) \\in \\mathbb{C}^2\\)}},&nbsp;<br><br>– {{c1::\\(q_2 (u, v) = u^2,\\) for all \\((u, v) \\in \\mathbb{C}^2\\)}},&nbsp;<br><br>– {{c1::\\(q_3 (u, v) = u^2 + v^2\\), for all \\((u, v) \\in \\mathbb{C}^2\\)}}.",
+                        "",
+                        "44"
+                    ],
+                    "guid": "w4X@r4mR@U",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.7.",
+                        "A vector \\(u \\in E\\) is isotropic (for \\(q\\)) if {{c1::\\(q(u) = 0\\)}}.",
+                        "",
+                        "44"
+                    ],
+                    "guid": "uHX2NI}{3D",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.8.1",
+                        "There exists non-degenerate quadratic forms which admit nonzero isotropic vectors. <br><br>Indeed, if \\(q : \\mathbb{R}^2 \\to&nbsp;\\mathbb{R}\\)&nbsp;is defined by {{c1::\\[q(u_1, u_2) := u_1^2-u_2^2, (u_1, u_2) \\in \\mathbb{R}^2,\\] the vector \\((1, 1)\\) satsifies \\(q(1,1) = 1 − 1 = 0\\), whence it is isotropic. On the other hand, in the canonical basis \\(\\mathscr{B}\\)&nbsp;of \\(\\mathbb{R}^2\\), the matrix of q is \\[\\mathscr{M}_\\mathscr{B}(q) = \\begin{pmatrix}1 &amp; 0 \\\\ 0 &amp; -1 \\end{pmatrix}.\\]}}",
+                        "",
+                        "44"
+                    ],
+                    "guid": "z5;DYT+NHv",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.8.2.",
+                        "Any vector \\(u \\in \\ker(q)\\) is isotropic, but the converse is false.&nbsp;<br><br>Indeed, again in the above (2.8.1.) example, we have {{c1::\\(\\ker(q) = \\{0\\}\\) by Proposition 1.15, but \\(u = (1,1) \\neq 0\\) is isotropic.}}",
+                        "",
+                        "44"
+                    ],
+                    "guid": "I)1rt#(`_C",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.8.3.",
+                        "If any vector is isotropic for \\(q\\), then {{c1::\\(q \\equiv 0\\)}}.",
+                        "",
+                        "44"
+                    ],
+                    "guid": "Bn8n2O?=Pg",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.8.",
+                        "A subset \\(C\\) of a \\(\\mathbb{R}\\)-vector space \\(E\\) is a cone if {{c1::for any \\(\\lambda \\geq 0\\) and any \\(u \\in C\\), we have \\(\\lambda u \\in C\\), i.e. \\(\\lambda C \\subset C\\)}}.<br><br>Remark that a cone always {{c1::contains the vector \\(0\\)}}.",
+                        "",
+                        "45"
+                    ],
+                    "guid": "fbtf_Xbv]*",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.9.",
+                        "We denote by \\(C(q)\\) {{c1::the set of isotropic vector of \\(q\\): \\[C(q) := \\{u \\in E : q(u) = 0\\}\\]}}<br><br>The set \\(C(q)\\) is called {{c1::the isotropic cone of \\(q\\)}}.",
+                        "",
+                        "45"
+                    ],
+                    "guid": "C,SDwwJ<7F",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.14.",
+                        "If \\(E\\) is {{c1::a \\(\\mathbb{R}\\)-vector space}} and \\(q \\in Q(E)\\), the set \\(C(q)\\) is {{c1::a cone}}.",
+                        "",
+                        "45"
+                    ],
+                    "guid": "f7]2V8f(yG",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.15.",
+                        "Assume \\(E\\) is a \\(\\mathbb{C}\\)-vector space of dimension \\(n \\geq 2\\) and let \\(q \\in \\mathscr{Q}(E)\\). There exist {{c1::a non-zero isotropic vector \\(u \\in E\\)}}. In other words, {{c1::\\(C(q) \\neq \\{0\\}.\\)}}",
+                        "",
+                        "45"
+                    ],
+                    "guid": "vpBANj0OFL",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.10.",
+                        "A vector subspace \\(F \\subset E\\) is isotropic if {{c1::\\(C(q) \\cap F \\neq \\{0\\}\\)}}, i.e. if {{c1::\\(q|_F\\) admits an isotropic vector}}. Otherwise, we say \\(F\\) is anisotropic.&nbsp;<div><br></div><div>We say {{c1::\\(F\\) is totally isotropic}} if {{c2::\\(F \\subset F^\\perp\\)}}.</div>",
+                        "",
+                        "46"
+                    ],
+                    "guid": "CTrgF~Pxs9",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.10.1",
+                        "The space \\(E\\) itself is anisotropic if and only if {{c1::\\(q\\) is definite}}. Indeed, \\(E\\) is anisotropic if and only if {{c2::\\(C(q) = \\{0\\}\\), i.e. \\(q(u) \\neq 0\\) for all \\(u \\in E − \\{0\\}\\)}}.",
+                        "",
+                        "46"
+                    ],
+                    "guid": "C8ncG)=0,h",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.10.2",
+                        "More generally, a subspace \\(F\\) is anisotropic if and only if {{c2::\\(q|_F\\) is definite}}. In particular, if \\(F\\) is anisotropic, then {{c1::\\(E = F\\oplus F^\\perp\\)}}, by Corollary 2.4.",
+                        "",
+                        "46"
+                    ],
+                    "guid": "E=mo{):i$v",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.10.3",
+                        "A vector subspace \\(F\\) is totally isotropic if and only if {{c1::\\(\\text{rad}(F) = F\\)}}, i.e. if {{c2::\\(q\\) vanishes identically on \\(F\\)}}.",
+                        "",
+                        "46"
+                    ],
+                    "guid": "xqK}D>y?Js",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.10.4",
+                        "If \\(u \\in E − \\{0\\}\\) and \\(F = \\text{Span}(u)\\), then {{c1::u is isotropic}} iff {{c2::\\(F\\) is isotropic iff \\(F\\) is totally isotropic}}.",
+                        "",
+                        "46"
+                    ],
+                    "guid": "ZLjU,iOL7",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.10.5",
+                        "If {{c1::\\(F\\) is isotropic}}, then \\(\\text{rad}(F)\\) is {{c2::totally isotropic}}.",
+                        "",
+                        "46"
+                    ],
+                    "guid": "h5|!~+ecSu",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.16. <sup>(\\(\\dim\\))</sup>",
+                        "If \\(q\\) is non-degenerate and if \\(F\\) is a totally isotropic subspace of \\(E\\), we have {{c1::\\[2\\dim F \\leq \\dim E\\]}}",
+                        "(Prove it!)",
+                        "46"
+                    ],
+                    "guid": "rw^iYvkO>;",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.11.",
+                        "The index of the quadratic form \\(q\\), denoted by \\(\\nu(q)\\), is {{c1::the maximal dimension of a totally isotropic subspace of \\(E\\)}}.",
+                        "",
+                        "46"
+                    ],
+                    "guid": "ttQ>*yLuiB",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.11.",
+                        "1. Lemma 2.16 says that \\(\\nu(q)\\) {{c1::\\(\\leq \\frac{1}{2} \\dim E\\)}}.<div><br></div><div>2.&nbsp; {{c2::\\(\\nu(q) \\geq 1\\)}} iff {{c1::\\(C(q) \\neq \\{0\\}\\)}}.</div><div><br></div><div>3. \\(\\nu(q)\\) is in general very hard to compute!</div>",
+                        "",
+                        "46"
+                    ],
+                    "guid": "qe9Qo#nk=f",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.12.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-plane, i.e. a \\(\\mathbb{R}\\)-vector space of dimension \\(2\\).<div><br></div><div>\\((E,q)\\) is a <i>hyperbolic plane</i> if there are vectors \\(e_1, e_2 \\in E − \\{0\\}\\) such that {{c1::\\[q(e_1) = q(e_2) = 0 \\text{ and } \\varphi(e_1, e_2) = 1\\]}}&nbsp;</div>",
+                        "The collection \\((e_1 , e_2)\\) is called a <i>hyperbolic basis</i> of \\(E\\) for \\(q\\) and we say \\(q\\) is a <i>hyperbolic quadratic</i> form.",
+                        "47"
+                    ],
+                    "guid": "Ln!w0kpK9i",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.12.1",
+                        "Note that \\(\\mathscr{B} = (e_1 , e_2)\\) is a actual basis of \\(E\\). Indeed, if \\(e_1\\) and \\(e_2\\) are not linearly independent, {{c1::there exis \\(\\lambda \\in \\mathbb{R} − \\{0\\}\\) such that \\(e_2 = \\lambda e_1\\) and \\(\\varphi(e_1 , e_2) = \\varphi(e_1, \\lambda e_1) = \\lambda q(e_1) = 0\\)}}.",
+                        "",
+                        "47"
+                    ],
+                    "guid": "Mo96V}8RYq",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.12.2",
+                        "More generally, if \\((u_1,u_2) \\in E^2\\) satisfies \\[q(u_1) = q(u_2) = 0 \\text{ and } \\varphi(u_1,u_2) \\neq 0,\\] letting {{c1::\\(e_1 := u_1\\) and \\(e_2 := u_2 / \\varphi(u_1, u_2)\\)}}, we get a hyperbolic basis of \\(E\\).",
+                        "",
+                        "47"
+                    ],
+                    "guid": "ce~79o,DkP",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.12.3.",
+                        "If \\(\\mathscr{B} = (e_1 , e_2)\\) is a hyperbolic basis of \\(E\\), the lines \\(\\text{Span}(e_1)\\) and \\(\\text{Span}(e_2)\\) are totally isotropic, but they are non-orthogonal!<div><br></div><div>Moreover, the matrix of \\(q\\) in the basis \\(\\mathscr{B}\\) is {{c1::\\[\\mathscr{M}_\\mathscr{B}(q)=\\begin{pmatrix}0 &amp; 1\\\\1 &amp; 0\\end{pmatrix}\\]}}&nbsp;and the expression of \\(q\\) in \\(\\mathscr{B}\\) is {{c1::\\[q(xe_1 + ye_2) = 2xy\\]}}&nbsp;</div><div><br></div><div>so that \\(\\text{Span}(e_1)\\) and \\(\\text{Span}(e_2)\\) are the only isotropic subspaces of \\(E\\). As a consequence, any non-zero isotropic vector can always be considered as the first vector of a hyperbolic basis of \\(E\\).</div><div><br></div>",
+                        "",
+                        "47"
+                    ],
+                    "guid": "Q*MKWLs1U",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.12.5.",
+                        "The name <i>hyperbolic space</i> comes from the fact that {{c1::the set \\[\\mathscr{H} := \\{v \\in E : q(v) = 1\\}\\] is a hyperbola}}.",
+                        "",
+                        "48"
+                    ],
+                    "guid": "H@Hb!l(Ei_",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.12.4.",
+                        "If \\(\\mathscr{B} = (e_1 , e_2)\\) is a hyperbolic basis of \\(E\\), the basis \\(\\mathscr{C} = (f_1, f_2)\\) given by \\(f_1 := e_1 + \\frac{1}{2} e_2\\) and \\(f_2 := e_1 − \\frac{1}{2} e_2\\) is an orthogonal basis for \\(q\\) and {{c1::\\[\\mathscr{M}_\\mathscr{C}(q) = \\begin{pmatrix}1 &amp; 0 \\\\ 0 &amp; -1\\end{pmatrix}\\]}} so that {{c1::\\(q(xf_1+yf_2) = x^2-y^2\\)}}.",
+                        "",
+                        "48"
+                    ],
+                    "guid": "D-r~apawA3",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 2.17.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-plane and let \\(q \\in \\mathscr{Q}(E)\\). The following are equivalent:<div><br></div><div>1. \\((E,q)\\) is {{c1::a hyperbolic plane}},</div><div><br></div><div>2.&nbsp;\\(q\\) is {{c2::non-degenerate with \\(\\nu(q) \\geq 1\\)}},</div><div><br></div><div>3.&nbsp;the signature of \\(q\\) is {{c1::\\((1,1)\\)}},</div><div><br></div><div>4. for any basis \\(\\mathscr{B}\\) of \\(E\\), {{c2::\\(\\det(\\mathscr{M}_\\mathscr{B}(q)) &lt; 0\\)}}.</div>",
+                        "<b>Remark 2.13.</b> — In the second equivalent condition, since \\(q\\) is non-degenerate, we have necessarily \\(\\nu(q) \\leq \\dim(E)/2 = 2/2 = 1\\). In particular, the condition \\(\\nu(q) \\geq 1\\) is equivalent to \\(\\nu(q) = 1\\).",
+                        "48"
+                    ],
+                    "guid": "PB]pDT&lTC",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Proposition 2.18 (Classification of quadratic planes).",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\) plane and let \\(q \\in \\mathscr{Q}(E)\\). Then exactly one of the following holds:<br><br>1. \\(E\\) is {{c1::anisotropic}}, i.e. {{c1::\\(E\\) contains no isotropic line}}, signature {{c2::\\((2,0)\\) or \\((0,2)\\)}},<br><br>2.&nbsp;\\(E\\) is {{c2::hyperbolic}} and {{c1::\\(E\\) contains exactly \\(2\\) isotropic lines}}, signature {{c1::\\((1,1)\\)}},<br><br>3.&nbsp;\\(q\\) has rank {{c1::\\(1\\)}} and \\(E\\) contains {{c1::exactly one}} isotropic line {{c1::\\(\\ker(q)\\)}}, signature {{c2::\\((1,0)\\) or \\((0,1)\\)}},<br><br>4.&nbsp;\\(q\\) is {{c1::identically \\(0\\)}} and {{c2::all lines of \\(E\\) are isotropic}}, signature {{c2::\\((0,0)\\)}}.",
+                        "",
+                        "49"
+                    ],
+                    "guid": "I:g815LaJ,",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Corollary 2.19.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-plane and \\(q \\in \\mathscr{Q}(E)\\). Assume {{c2::\\(E\\) contains at least \\(3\\) isotropic lines}}. Then \\(E\\) is {{c1::totally isotropic, i.e. the form \\(q\\) is identically \\(0\\)}}.",
+                        "",
+                        "50"
+                    ],
+                    "guid": "dOR,7CtUlo",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.20.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of dimension \\(n \\geq 2\\). Let \\(q \\in \\mathscr{Q}(E)\\) be non-degenerate and \\(u \\in C(q) − \\{0\\}\\).<br><br>1.&nbsp;There exist a \\(\\mathbb{R}\\)-plane \\(P \\subset E\\) such that {{c1::\\(u \\in P\\) and \\((P ,q|_P )\\) is hyperbolic}}.<br><br>2. If \\(n \\geq 3\\), there exist a \\(\\mathbb{R}\\)-plane \\(P \\subset E\\) such that {{c1::\\(u \\in P\\) and \\(\\text{rank}(q|_P ) = 1\\)}}.",
+                        "",
+                        "50"
+                    ],
+                    "guid": "r,|$?g=#xW",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition 2.13.",
+                        "We say that \\((E,q)\\) is a <i>hyperbolic space</i> if there exists \\(\\mathbb{R}\\)-planes \\(E_1,...,E_r \\subset E\\) such that<br><br>-&nbsp;\\(E\\) is the {{c1::orthogonal direct sum of \\(E_1,...,E_r : E = E_1\\oplus\\dots \\oplus E_r\\)}} and for all \\(1 \\leq i &lt; j \\leq r\\), {{c1::\\(\\varphi(u, v) = 0\\)}} for all \\((u, v) \\in E_i \\times E_j\\),<br><br>-&nbsp;for any \\(1 \\leq i \\leq r\\), {{c1::\\((E_i ,q|_{E_i} )\\)&nbsp;is a hyperbolic plane}}.<br><br>We say \\(q\\) is a {{c1::hyperbolic form}} on E.",
+                        "",
+                        "51"
+                    ],
+                    "guid": "Ai8I,?$nk3",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 2.14.",
+                        "If \\(E\\) is a hyperbolic space, its dimension is {{c1::even}}, since {{c1::\\(\\dim E = \\dim E_1+ \\dots + \\dim E_r = 2r\\)}}.",
+                        "",
+                        "51"
+                    ],
+                    "guid": "G$F:KoUnDL",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 2.21.",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of dimension \\(n = 2p\\) and let \\(q \\in \\mathscr{Q}(E)\\). The following assertions are equivalent<br><br>1. \\((E, q)\\) is a hyperbolic space,<br><br>2. \\(q\\) is {{c1::non-degenerate}} with \\(\\nu(q) =\\) {{c2::\\(p = n/2\\)}},<br><br>3. the signature of \\(q\\) is {{c1::\\((p,p)\\)}}.",
+                        "",
+                        "51"
+                    ],
+                    "guid": "xW2IYK?AKv",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Theorem 2.23. (Decomposition)",
+                        "Let \\(E\\) be a \\(\\mathbb{R}\\)-vector space of dimension \\(n \\geq 2\\) and let \\(q \\in \\mathscr{Q}(E)\\). Then \\(E\\) decomposes as an orthogonal sum {{c1::\\[E = \\text{rad}(E)\\oplus H \\oplus F,\\]}} where {{c2::\\((H, q|_H)\\)}} is {{c1::a hyperbolic space}} and {{c2::\\((F, q|_F)\\)}} is {{c1::anisotropic}}.",
+                        "",
+                        "53"
+                    ],
+                    "guid": "xjGAU|}EuM",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "0254cfc7-af42-11eb-9fb3-a87eeaba6624",
+            "deck_config_uuid": "0254cfc8-af42-11eb-a784-a87eeaba6624",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "mid": 1619391225391,
+            "name": "Quadratic forms",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.1.2",
+                        "A bilinear form on \\(E\\) is a function \\(\\varphi:E \\times E \\to \\mathbb{K}\\) such that for all \\(u, u', v, v' \\in E\\) and all \\(\\lambda \\in \\mathbb{K}\\),<br><br>{{c1::\\(\\varphi(u+u',v) = \\varphi(u,v) + \\varphi(u',v)\\)<br><br>\\(\\varphi(u,v+v') = \\varphi(u,v) + \\varphi(u,v')\\)<br><br>\\(\\varphi(\\lambda u, v) = \\lambda \\varphi(u,v) = \\varphi(u, \\lambda v) \\)}}",
+                        "",
+                        "9"
+                    ],
+                    "guid": "IQ[Y60B_<V",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.1.1",
+                        "A bilinear form \\(\\varphi\\) on \\(E\\) is<br><br>-&nbsp;symmetric&nbsp;if {{c1::for all \\(u, v \\in E\\), \\(\\varphi(u,v) = \\varphi(v,u)\\)}},<br><br>-&nbsp;definite&nbsp;if {{c1::for all \\(u \\in E -&nbsp; \\{0\\}\\), \\(\\varphi(u,u) \\neq 0\\)}},<br><br>-&nbsp;positive&nbsp;if {{c1::for all \\(u \\in E\\), \\(\\varphi(u,u) \\geq 0\\) (when \\(\\mathbb{K} = \\mathbb{R}\\))}}.",
+                        "",
+                        "9"
+                    ],
+                    "guid": "O2b$#L~a4d",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b>Def 1.2.</b>",
+                        "A function \\(q : E \\to \\mathbb{K}\\) is a quadratic form on \\(E\\) if&nbsp;{{c1::<div><br>- for all \\((\\lambda, u) \\in \\mathbb{K} \\times E\\), \\(q(\\lambda u) = \\lambda^2q(u)\\)<br><br></div><div>- the function \\(\\varphi_q : E \\times E \\to \\mathbb{K}\\) defined by \\[\\varphi_q(u, v) := \\frac{1}{2} (q(u + v) − q(u) − q(v))\\] is bilinear symmetric.}}</div>",
+                        "",
+                        "11"
+                    ],
+                    "guid": "B^$eQ7xvK@",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lemma 1.3.",
+                        "Given \\(q \\in \\mathscr{Q}(E)\\) and given \\(u, v \\in E\\), we have <br>1.<i> (Polarization identity)</i>: {{c1::\\(\\varphi_q(u, v) = \\frac{1}{4} (q(u + v) − q(u − v))\\)}}, <br>2. <i>(Parallelogram law)</i>: {{c1::\\(q(u + v) + q(u − v) = 2(q(u) + q(v))\\)}}.",
+                        "",
+                        "12"
+                    ],
+                    "guid": "C;/L_&)&g?",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.4.",
+                        "The matrix of \\(\\varphi\\) (or of \\(q\\)) in the basis \\(\\mathscr{B} = (e_1,...,e_n)\\) is the \\(n \\times n\\) matrix \\(\\mathscr{M}_{\\mathscr{B}}(\\varphi) =&nbsp;\\mathscr{M}_{\\mathscr{B}}(q)\\) whose entries are {{c1::the coefficients \\(\\varphi(e_i,e_j)\\) of \\(\\varphi\\) in the basis \\(\\mathscr{B}\\) }}.",
+                        "",
+                        "13"
+                    ],
+                    "guid": "v@CvHHv4Zw",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 1.5.&nbsp;",
+                        "The matrix \\(\\mathscr{M}_{\\mathscr{B} }(q)\\) is&nbsp;{{c1::symmetric, i.e. \\({}^\\top \\mathscr{M}_{\\mathscr{B} }(q) = \\mathscr{M}_{\\mathscr{B} }(q)\\)}}.",
+                        "",
+                        "13"
+                    ],
+                    "guid": "QD:QmeFhc9",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.6.",
+                        "If \\(u = \\sum_{i=1}^n u_i e_i\\), let&nbsp;<br>\\[ \\mathscr{M}_{\\mathscr{B} }(u) := \\begin{pmatrix} u_1 \\\\&nbsp;\\vdots \\\\ u_n \\end{pmatrix}\\] Then<br><br>\\(\\varphi(u,v) =\\) {{c1::\\({}^\\top \\mathscr{M}_{\\mathscr{B} }(u)&nbsp;\\mathscr{M}_{\\mathscr{B} }(\\varphi)&nbsp;\\mathscr{M}_{\\mathscr{B} }(v) \\)}}",
+                        "\\[q(u) = {}^\\top \\mathscr{M}_{\\mathscr{B} }(u)&nbsp;\\mathscr{M}_{\\mathscr{B} }(\\varphi)&nbsp;\\mathscr{M}_{\\mathscr{B} }(u) \\]",
+                        "14"
+                    ],
+                    "guid": "zn,gu-%Tio",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.7.&nbsp;(Base change)&nbsp;",
+                        "For any quadratic form \\(q\\) on \\(E\\), we have \\(\\mathscr{M}_{\\mathscr{C} }(q) =\\) {{c1::\\({}^{\\top}P^{\\mathscr{C} }_{\\mathscr{B} }&nbsp;\\mathscr{M}_{\\mathscr{B} }(q)&nbsp;P^{\\mathscr{C} }_{\\mathscr{B} }\\)}}.",
+                        "",
+                        "15"
+                    ],
+                    "guid": "JP8_fudJc/",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.8.&nbsp;(Cauchy-Schwarz)&nbsp;",
+                        "Let \\(\\varphi\\) and \\(q\\). For any \\((u, v) \\in E \\times E,\\)&nbsp;{{c1::\\[\\varphi(u,v)^2 \\leq q(u)q(v)\\]}} Moreover, if \\(\\varphi\\) is definite,&nbsp;{{c1::\\(\\varphi(u,v)^2 = q(u)q(v)\\) iff \\(u\\) and \\(v\\) are linearly dependent}}.",
+                        "",
+                        "16"
+                    ],
+                    "guid": "MZ5Hj5fkI2",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.9.&nbsp;(Minkowski)&nbsp;",
+                        "Let \\(\\varphi\\) and \\(q\\). For any \\((u, v) \\in E \\times E\\),&nbsp;{{c1::\\[\\sqrt{q(u+v)} \\leq \\sqrt{q(u)} + \\sqrt{q(v)}\\]}}<b>&nbsp;</b>",
+                        "",
+                        "17"
+                    ],
+                    "guid": "QhbaQ{R,=t",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def of rank.",
+                        "To the bilinear symmetric form \\(\\varphi_q\\) one associates a linear map \\(\\mathscr{J}_\\varphi : E \\to E^\\star\\) given by&nbsp;{{c1::\\[\\begin{align}\\mathscr{J}_{\\varphi}:E &amp;\\to E^\\star \\\\ u &amp;\\mapsto j_u \\end{align}\\]}} where {{c1::\\(j_u(v):=\\varphi(u,v)\\) for all \\(v \\in E\\)}}.",
+                        "",
+                        "18"
+                    ],
+                    "guid": "HLy-sYM(Z",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.5.",
+                        "1. \\(\\text{rank}(\\varphi) = \\text{rank}(q) :=\\) {{c1::\\(\\text{rank}(\\mathscr{J}_\\varphi)\\)}}.<br>2. \\(\\ker(\\varphi)\\) := {{c1::\\(\\ker(\\mathscr{J}_\\varphi)\\)}}.",
+                        "",
+                        "18"
+                    ],
+                    "guid": "hbR#<vs#W@",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 1.9.",
+                        "\\(\\ker(\\varphi)\\) is a vector subspace of \\(E\\) and \\(\\ker(\\varphi)\\) =&nbsp;{{c1::\\[\\{u \\in E : \\varphi(u,v)=0, \\text{ for all } v \\in E\\}\\]}}",
+                        "",
+                        "18"
+                    ],
+                    "guid": "nQiOs=XP;R",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.8.",
+                        "We say \\(q\\) is <i>non-degenerate</i> if {{c1::\\(\\text{rank}(q) = \\dim E\\)}} or {{c2::\\(\\mathscr{J}_{\\varphi}\\) is an isomorphism}}. Otherwise, \\(q\\) is <i>degenerate</i>.",
+                        "",
+                        "21"
+                    ],
+                    "guid": "j0?*!pq;Ae",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.11.&nbsp;",
+                        "1. \\(q\\) is degenerate iff there exists {{c1::\\(u \\in E - \\{0\\}\\)}} such that {{c2::\\(\\varphi_q(u, v) = 0\\) for all \\(v \\in E\\) (or \\(j_u \\equiv 0\\))}}.<div><br>2. If \\(q\\) is {{c1::definite}}, then \\(q\\) is {{c2::non-degenerate}}.</div><div><br>3. If \\(\\dim E &gt; 1\\), there exists {{c1::\\(q \\in \\mathscr{Q}(E)\\) which is non-degenerate and non-definite}}.</div>",
+                        "",
+                        "18"
+                    ],
+                    "guid": "lGSx-.IS:9",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.15.&nbsp;",
+                        "Let \\(\\varphi\\) and \\(\\mathscr{B}\\). The following assertions are equivalent:<br><br>1.&nbsp;{{c1::\\(\\varphi\\) is non-degenerate}}<br>2. {{c2::\\(\\text{rank}(\\varphi) = \\dim E\\)}}<br>3.&nbsp;{{c3::\\(\\mathscr{J}_\\varphi\\) is injective}}<br>4.&nbsp;{{c3::\\(\\mathscr{J}_\\varphi\\) is surjective}}<br>5.&nbsp;{{c2::\\(\\ker(\\varphi) = \\{0\\}\\)}}<br>6. {{c4::\\(\\mathscr{M}_\\mathscr{B}(\\varphi)\\) is invertible}}<br>7. {{c4::\\(\\det(\\mathscr{M}_\\mathscr{B}(\\varphi)) \\neq 0\\)}}",
+                        "",
+                        "22"
+                    ],
+                    "guid": "t3Jl;BJ-8H",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.6.",
+                        "Two matrices \\(A, B \\in \\mathscr{M}_n(\\mathbb{K})\\) are congruent if {{c1::there exists \\(P \\in \\text{GL}_n(\\mathbb{K})\\)}} such that {{c1::\\(B = {}^\\top PAP\\)}}.",
+                        "",
+                        "19"
+                    ],
+                    "guid": "m.)4Uqp[n-",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Remark 1.10.",
+                        "- If \\(A\\) and \\(B\\) are congruent, then {{c1::\\(\\text{rank}(A) = \\text{rank}(B)\\)}}.<div><br>- If \\(\\mathbb{K} = \\mathbb{R}\\), \\(A\\) and \\(B\\) are congruent, then {{c1::\\(\\det(A)\\) and \\(\\det(B)\\) have the same sign}}.</div><div><br>-&nbsp;\\(A\\) and \\(B\\) are congruent does not {{c1::imply \\(A\\) and \\(B\\) are conjugate (similar)}}.</div>",
+                        "",
+                        "19"
+                    ],
+                    "guid": "siW5Nl>_D=",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def 1.7.",
+                        "Two quadratic forms \\(q, q'\\) on \\(E\\) are equivalent if {{c1::there exists \\(h \\in \\text{GL}(E)\\) such that \\(q=q'\\circ h\\)}}.",
+                        "",
+                        "20"
+                    ],
+                    "guid": "A7+Tgfe_Q<",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prop 1.13",
+                        "Take any base \\(\\mathscr{B}\\) of \\(E\\) and let \\(q, q'\\) be two quadratic forms on \\(E\\). Then {{c1::\\(q\\) and \\(q'\\) are equivalent}} if and only if {{c2::\\(\\mathscr{M}_\\mathscr{B}(q)\\) and&nbsp;\\(\\mathscr{M}_\\mathscr{B}(q')\\) are congruent}}.",
+                        "",
+                        "20"
+                    ],
+                    "guid": "OJuOiTDe}Y",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Reminder",
+                        "\\(\\sim\\) is an equivalence relation if it is<br>{{c1::- reflexive (\\(A \\sim A\\) for all \\(A\\))<br>- symmetric (\\(A \\sim B\\) implies \\(B \\sim A\\) for all \\(A, B\\))<br>- transitive (\\(A \\sim B\\) and \\(B \\sim C\\) implies \\(A \\sim C\\) for all \\(A, B, C\\))}}",
+                        "",
+                        ""
+                    ],
+                    "guid": "u1/O?/,3oG",
+                    "note_model_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "crowdanki_uuid": "02525e65-af42-11eb-9bba-a87eeaba6624",
+    "deck_config_uuid": "02525e66-af42-11eb-9cd4-a87eeaba6624",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "02525e66-af42-11eb-9cd4-a87eeaba6624",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "math",
+            "new": {
+                "bury": true,
+                "delays": [
+                    3.0,
+                    15.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 60,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "02528582-af42-11eb-9d7b-a87eeaba6624",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "math",
+            "new": {
+                "bury": true,
+                "delays": [
+                    3.0,
+                    15.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 60,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "0252faa2-af42-11eb-8f0f-a87eeaba6624",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "math",
+            "new": {
+                "bury": true,
+                "delays": [
+                    3.0,
+                    15.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 60,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "0253bdf5-af42-11eb-b8a6-a87eeaba6624",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "math",
+            "new": {
+                "bury": true,
+                "delays": [
+                    3.0,
+                    15.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 60,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "0254cfc8-af42-11eb-a784-a87eeaba6624",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "math",
+            "new": {
+                "bury": true,
+                "delays": [
+                    3.0,
+                    15.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 60,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "mid": 1619391225391,
+    "name": "MAA206",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "02528585-af42-11eb-8cc0-a87eeaba6624",
+            "css": ".card {\n  font-family: Georgia;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\na {\n  text-decoration: none;\n}\n\n.cloze {\n color: royalblue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n.centered-block {\n    display: inline-block;\n    text-align: left;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "name": "Title",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Text",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Back Extra",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Page",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze-Latex-206",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<div class=centered-block>\n<a href=\"https://tilsgsh.files.wordpress.com/2021/04/maa206.pdf#page{{Page}}\"><b>{{Title}}</b></a>\n<br>\n<br>\n{{cloze:Text}}\n\n<br>\n<br>\n{{Back Extra}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div class=centered-block>\n<a href=\"https://tilsgsh.files.wordpress.com/2021/04/maa206.pdf#page{{Page}}\"><b>{{Title}}</b></a>\n<br>\n<br>\n{{cloze:Text}}\n</div>\n",
+                    "scratchPad": true
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": []
+}
